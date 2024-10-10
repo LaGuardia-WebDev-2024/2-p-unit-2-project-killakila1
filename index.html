@@ -2,12 +2,12 @@
 Requirements
 [ Yes ] Two Element Selectors
 [ Yes ] Two ID Selectors
-[  ] Two Class Selectors
+[ Yes ] Two Class Selectors
 [ Yes ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include a Background Image
-[ no ] Feature 2 - Include Border Radius CSS Property
+[ Yes ] Feature 2 - Include Border Radius CSS Property
 [ no ] Feature 3 - Include Horizontal Line
 [ no ] Feature 4 - Embed YouTube Video
 [ no ] Feature 5 - Include Border CSS Property
@@ -39,7 +39,7 @@ Select ONE Additional Feature to Add
       color: rgb(0, 0, 139);
     }
     #Intro-To-Top-Cruise-Lines {
-      color: rgb(255, 126, 0);
+      color: rgb(224, 33, 110);
     }
     #Royal-Caribbean-Lines {
       color: rgb(160, 32, 240);
@@ -47,8 +47,19 @@ Select ONE Additional Feature to Add
     h2 {
       color: rgb(0, 0, 128);
     }
-     #Brief-Summary {
-      color: rgb(255, 126, 0);
+    #Brief-Summary {
+      color: rgb(224, 33, 110);
+    }
+    .Royal {
+      background-color: rgb(255, 215, 0);
+      color: rgb(0, 0, 255);
+    }
+    .Caribbean {
+      background-color: rgb(0, 0, 255);
+      color: rgb(255, 215, 0);
+    }
+    img {
+      border-radius: 30px;
     }
   </style>
   <head>
@@ -60,7 +71,6 @@ Select ONE Additional Feature to Add
       src="https://as1.ftcdn.net/v2/jpg/01/67/64/42/1000_F_167644223_i0fWaJ64Ror1I3a9ntrtODa4b6M1aSW9.jpg"
       alt="veiw from balcony room on crusie"
       width="500"
-      <img
       <p
     />
     <p id="Intro-To-Top-Cruise-Lines">
@@ -75,8 +85,10 @@ Select ONE Additional Feature to Add
       have it all especially the <font size="+3">1</font> Im going to Reccomennd
       to U!! ( ≧ᗜ≦)
     </p>
-
-    <h1>Royal Carribean Line𓇼 𓆝⋆.˚ 𓇼</h1>
+    <h1>
+      <strong class="Royal">Royal</strong>
+      <strong class="Caribbean">Carribbean </strong> Line𓇼 𓆝⋆.˚ 𓇼
+    </h1>
 
     <img
       src="https://seeklogo.com/images/R/royal-caribbean-group-logo-8B2F58BD50-seeklogo.com.png"
@@ -105,25 +117,30 @@ Select ONE Additional Feature to Add
     <h3>
       <u>Brief Summary </u>
     </h3>
-   <p>
-     <p id="Brief-Summary">
-       
-      Royal Caribbean is the #1 cruise line in the world.<br />
-    "Why?", u ask well thats because of its huge variety of activites, dining,
-    shopping, and destinations <br />
-    It maintains a bunch of fun for the entire family including us
-    <em <font size="+2">Teens<font /> </em> <br />
-    Royal Caribbean has been developing cruise ships since
-    <font size="+2">1968</font> and everytime they release a new ship it comes
-    out bigger and better for us Teenagers. <br />
-    There award winning ships take us on adventures alone by themselves that u
-    dont even need to pay for exercusions <br />(˶˃̶ ᵕ ˂̶˶) <br />
-    <br />
-    Here is my personal and recommended faves for each topic under the Royal
-    Carribean Cruise Line. Finishing off with my
-    <strong> Top Cruise Ships </strong> under the Royal Carribean Name!!
-    <br />
-    </p>   
+    <p></p>
+    <p id="Brief-Summary">
+      <strong class="Royal">Royal</strong>
+      <strong class="Caribbean">Carribbean </strong>is the #1 cruise line in the
+      world.<br />
+      "Why?", u ask well thats because of its huge variety of activites, dining,
+      shopping, and destinations <br />
+      It maintains a bunch of fun for the entire family including us
+      <em <font size="+2">Teens<font /> </em> <br />
+      <strong class="Royal">Royal</strong>
+      <strong class="Caribbean">Carribbean </strong> has been developing cruise
+      ships since <font size="+2">1968</font> and everytime they release a new
+      ship it comes out bigger and better for us Teenagers. <br />
+      There award winning ships take us on adventures alone by themselves that u
+      dont even need to pay for exercusions <br />(˶˃̶ ᵕ ˂̶˶) <br />
+      <br />
+      Here is my personal and recommended faves for each topic under the
+      <strong class="Royal">Royal</strong>
+      <strong class="Caribbean">Carribbean </strong> Cruise Line. Finishing off
+      with my <strong> Top Cruise Ships </strong> under the
+      <strong class="Royal">Royal</strong>
+      <strong class="Caribbean">Carribbean </strong> Name!!
+      <br />
+    </p>
     <h4>
       <u>Actvites provided on the ROC</u>
       <br />
